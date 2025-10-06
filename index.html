@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class = "container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#header-text">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class = "header-text">
+                    <p>Final Year Computer Science and Software Engineering student</p>
+                    <h1>Hi, I'm <span>Tolulope</span> </h1>
+                </div>
+            </div>
+        </div> 
+        <!-- about -->
+        <div id = "about">
+            <div class = "container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/portfolioic.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm really passionate about building reliable, secure software. During my recent placement, I led development teams and built REST APIs an experience that deepened my love for backend development, testing, and collaboration. I’m now expanding into cybersecurity through Google’s Cybersecurity Foundation course, learning how to build and protect systems. Seeking Graduate Jobs and opportunities to apply and expand my knowledge in software development, cybersecurity and gain practical experience in the field.</p>
+                        <div class="tab-titles">
+                            <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class ="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class ="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages</span><br>Java, SQL, Python, C++, HTML/CSS</li>
+                                <li><span>Operating Systems </span><br>Windows, Linux, Android, IOS</li>
+                                <li><span>Frameworks & Tools </span><br>VS Code, Eclipse, Git, Postman, MongoDB, Flask (Python web framework), Docker, Jira</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>March 2025 - August 2025</span><br>Junior Developer Analyst at Maynooth University</li>
+                                <li><span>June 2024 - August 2024</span><br>IT Support Intern at FLYNN</li>
+                                <li><span>September 2023 - April 2024</span><br>Tutor at Maynooth University Computer Science Center</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - Present at Maynooth University</span><br>Computer Science & Software Engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- projects -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/passwordManager.png">
+                        <div class="layer">
+                            <h3>Password Manager</h3>
+                            <p> I built a secure web app that lets safely store and share passwords for services like Wi-Fi or Netflix. It uses bcrypt for user authentication and AES encryption to protect stored passwords. Users can share access with family members and view activity logs for extra transparency. This project helped me strengthen my skills in web security, encryption, and full-stack development.</p>
+                            <a href="https://github.com/toluwalope6/family-password-manager"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/portfolioProject.png">
+                        <div class="layer">
+                            <h3> Portfolio Website</h3>
+                            <p>I designed and built my personal portfolio website using HTML, CSS and Javascript to showcase my projects, skills, and experience in a clean and professional way. The site features a responsive layout, smooth navigation, and organized sections for my work and background. This project helped me improve my frontend development, UI design, and web deployment skills.</p>
+                            <a href="https://github.com/toluwalope6/Portfolio-Website"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/calculator.png">
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p> This is a simple web based calculator using HTML,CSS and a bit of Javascript </p>
+                            <a href="https://github.com/toluwalope6/Calculator-using-HTML-and-CSS"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <!--  contact -->
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>tolulope.awonola@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0852847857</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/tolulope-awonola/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="
+                            https://www.instagram.com/tolulope_dave?igsh=MTM1ZGoyc2puYWo4aQ%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/toluwalope6"> <i class="fa-brands fa-github"></i> </a>
+                        </div>
+                        <a href="images/Tolulope_Awonola_CV (5).pdf" download class = "btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder = "Your Message"></textarea>
+                            <button type="submit" class ="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class ="copyright">
+                <p> All rights reserved © made with love by tolu</p>
+            </div> -->
+          </div>
+        <script src="index.js "></script>
+    </body>
+</html>
