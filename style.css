@@ -63,7 +63,14 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.header-text{ margin-top: 20%; font-size: 30px; } .header-text h1{ font-size: 60px; margin-top: 20px; }
+.header-text{ 
+    margin-top: 20%; 
+    font-size: 30px; 
+} 
+.header-text h1{ 
+    font-size: 60px; 
+    margin-top: 20px; 
+}
 .header-text span {
     color: #1e90ff;
 }
@@ -124,7 +131,6 @@ nav ul li a:hover::after {
     font-weight: 500;
 }
 
-/* Portfolio styling restored */
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -145,7 +151,7 @@ nav ul li a:hover::after {
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), blue);
+    background: linear-gradient(rgba(0,0,0,0.6), #1e90ff);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -166,7 +172,7 @@ nav ul li a:hover::after {
 }
 .layer a{
     margin-top: 20px;
-    color:blue;
+    color:#1e90ff;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -183,7 +189,7 @@ nav ul li a:hover::after {
     height: 100%;
 }
 
-/* CONTACT restored */
+/* contact */
 .contact-left{
     flex-basis:35%;
 }
@@ -194,7 +200,7 @@ nav ul li a:hover::after {
     margin-top: 30px;
 }
 .contact-left p i{
-    color: blue;
+    color: #1e90ff;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -213,20 +219,20 @@ nav ul li a:hover::after {
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: blue;
+    color: #1e90ff;
     transform: translateY(-5px);
 }
 .btn{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid blue;
+    border: 1px #1e90ff;
     padding: 14px 50px;
     border-radius: 6px;
 }
 .btn.btn2{
     display: inline-block;
-    background: blue;
+    background: #1e90ff;
 }
 .contact-right form{
     width: 100%;
